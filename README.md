@@ -45,3 +45,11 @@ A Country API that allows you to add, remove and view countries.
 6. Run the server
   - Run `npm run dev` to run the server in development mode
   - Run `npm run start` to run the server in production mode
+
+### Endpoints
+    - `GET /countries` - Retrieve all countries
+    - `GET /countries/:id` - Retrieve a country by ID
+    - `POST /countries` - Add a new country
+    - `DELETE /countries/:id` - Delete a country by ID
+    - `PATCH /countries/:id` - Update a country by ID
+
